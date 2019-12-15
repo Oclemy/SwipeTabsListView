@@ -14,9 +14,7 @@ import com.tutorials.hp.swipetabslistview.mData.TVShow;
 
 import java.util.ArrayList;
 
-/**
- * Created by Oclemmy on 5/9/2016 for ProgrammingWizards Channel and http://www.Camposha.com.
- */
+
 public class CustomAdapter extends BaseAdapter {
 
     Context c;

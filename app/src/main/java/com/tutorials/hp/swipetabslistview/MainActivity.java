@@ -17,7 +17,7 @@ import com.tutorials.hp.swipetabslistview.mFragments.DramaFrgament;
 import com.tutorials.hp.swipetabslistview.mFragments.MyPagerAdapter;
 
 
-public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
+public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener,ViewPager.OnPageChangeListener {
 
 
     ViewPager vp;
@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         vp.setAdapter(pagerAdapter);
     }
 
-    @Override
     public void onTabSelected(TabLayout.Tab tab) {
         vp.setCurrentItem(tab.getPosition());
     }
